@@ -8,28 +8,55 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="principal">
-      <div class="divTop"></div>
-
-      <div class="central">
-        <!--Botones del lado izquierdo-->
-        <div class="izq">
-          <div class="botonSuperiorIzq"></div>
+    <div class="gb">
+      <!--Pantalla y marco de la consola-->
+      <div class="top">
+        <!--Marco y bolas superiores-->
+        <div class="marcoTop">
+          <div class="bolaTopIzq"></div>
+          <div class="bolaTopCentro"></div>
+          <div class="bolaTopDer"></div>
         </div>
-
-        <!--Pantalla y marco de la pantalla-->
-
-        <div class="centro">
-          <div class="pantalla"></div>
+        <!--Marco izquierdo-->
+        <div class="marcoMid">
+          <div class="marcoExtIzq"></div>
+          <!--Marco de la pantalla-->
+          <div class="marcoPan">
+            <div class="marcoTopInt"></div>
+            <div class="marcoCentro">
+              <div class="marcoIntIzq"></div>
+              <div class="pantalla"></div>
+              <div class="marcoIntDer"></div>
+            </div>
+            <div class="marcoBotInt">GAMEBOY ADVANCE SP</div>
+          </div>
+          <!--Marco derecho-->
+          <div class="marcoExtDer"></div>
         </div>
-        <!--Botones del lado derecho-->
-
-        <div class="der"></div>
+        <!--Marco y bolas inferiores-->
+        <div class="marcoBot">
+          <div class="bolaBotIzq"></div>
+          <div class="bolaBotDer"></div>
+        </div>
       </div>
 
-      <div class="divBottom"></div>
-    </div>
+      <!--Parte plegable de la consola-->
+      <div class="mid">
+        <div class="uno"></div>
+        <div class="dos"></div>
+        <div class="tres"></div>
+        <div class="cuatro"></div>
+        <div class="cinco"></div>
+      </div>
 
+      <!--Parte inferior de la consola-->
+      <div class="bot">
+        <div class="botTop"></div>
+        <div class="botMidTop"></div>
+        <div class="botMidBot"></div>
+        <div class="botBot"></div>
+      </div>
+    
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-    background-color: darkred;
+    background-color: blue;
     background: linear-gradient(white);
 
     height: 100vh;
@@ -10,74 +10,290 @@ body{
     align-items: center;
 
     overflow: hidden;
+
+    margin: 0px;
+    padding: 0px;
 }
 
-.principal{
-    width: 88.9em;
-    height: 35em;
+/*Contenedor principal*/
+
+/* gb{} */
+
+/*Pantalla y marco de la consola*/
+
+.top{
+    height: 22em;
+    width: 28em;
+
+    background-color: red;
+
+    border-radius: 5% 5% 5% 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Marco superior y bolas de la parte superior*/
+
+.marcoTop{
+    height: 2.7em;
+    width: 27.5em;
+
+    background-color: red;
+
+    border-radius: 30% 30% 0% 0%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bolaTopIzq{
+    height: 1em;
+    width: 1em;
 
     background-color: white;
 
-    border-radius:12.5% 12.5% 20% 20%;
-
-    display: grid;
+    border-radius: 100% 100% 100% 100%;
 }
 
-/* .divTop{
+.bolaTopCentro{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+.bolaTopDer{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Pantalla, marcos interior y exterior*/
+
+.marcoMid{
+    height: 17em;
+    width: 28em;
+
     background-color: red;
 
-    height: 1em;
-    width: 82.5em;
-
-    border-radius:30% 0% 50% 50%;
-} */
-
-.central{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-/*Botones Izquierda*/
-
-.izq{
-    background-color: green;
-
-    height: 32.5em;
-    width: 15.78em;
-
-    border-radius:25% 0% 0% 45%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*Marco y pantalla*/
+.marcoExtIzq{
+    height: 17em;
+    width: 2.5em;
 
-.centro{
-    background-color: grey;
+    background-color: red;
+}
 
-    height: 32.5em;
-    width: 55.2em;
+.marcoPan{
+    height: 17em;
+    width: 24em;
+
+    background-color: red;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+/*Marco interno*/
+.marcoTopInt{
+    height: 1.5em;
+    width: 23.2em;
+
+    background-color: black;
+}
+
+.marcoCentro{
+    height: 16em;
+    width: 23.2em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Pantalla*/
+.marcoIntIzq{
+    height: 14em;
+    width: 1.5em;
+
+    background-color: black;
 }
 
 .pantalla{
-    background-color: black;
+    height: 14em;
+    width: 22em;
 
-    height: 30em;
-    width: 49.5em;
+    background-color: gray;
 }
 
-.der{
+.marcoIntDer{
+    height: 14em;
+    width: 1.5em;
+
+    background-color: black;
+}
+
+/*Fin Pantalla*/
+.marcoBotInt{
+    height: 2.5em;
+    width: 23.2em;
+
+    background-color: black;
+
+    color: white;
+    text-align: center;
+}
+
+/*Marco externo derecho*/
+.marcoExtDer{
+    height: 17em;
+    width:  2.5em;
+
+    background-color: red;
+}
+
+
+
+/*Marco superior y bolas de la parte superior*/
+
+.marcoBot{
+    height: 2.7em;
+    width: 28em;
+
+    background-color: red;
+
+    border-radius: 0% 0% 30% 30%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bolaBotIzq{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+.bolaBotDer{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Parte plegable de la consola*/
+
+.mid{
+    width: 28em;
+    height: 3em;
+
+    background-color: yellow;
+
+    border-radius: 10% 10% 0% 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno{
+    width: 3em;
+    height: 3em;
+
+    background-color: magenta;
+}
+
+.dos{
+    width: 3em;
+    height: 3em;
+
+    background-color: coral;
+}
+
+.tres{
+    width: 3em;
+    height: 3em;
+
+    background-color: violet;
+}
+
+.cuatro{
+    width: 3em;
+    height: 3em;
+
+    background-color: brown;
+}
+
+.cinco{
+    width: 3em;
+    height: 3em;
+
+    background-color: navajowhite;
+}
+
+/*Parte inferior y botones de la consola*/
+
+.bot{
+    width: 28em;
+    height: 22.5em;
+
     background-color: green;
 
-    height: 32.5em;
-    width: 15.78em;
+    border-radius: 0% 0% 10% 10%;
 
-    border-radius:0% 25% 45% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botTop{
+    height: 6em;
+    width: 7em;
+
+    background-color: aqua;
+}
+
+.botMidTop{
+    height: 9em;
+    width: 7em;
+
+    background-color: orange;
+}
+
+.botMidBot{
+    height: 8em;
+    width: 7em;
+
+    background-color: khaki;
+}
+
+.botBot{
+    height: 5em;
+    width: 7em;
+
+    background-color: hotpink;
 }

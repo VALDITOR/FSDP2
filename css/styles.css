@@ -209,6 +209,8 @@ gb{
 
 /*Parte plegable de la consola*/
 
+/*Bisagras*/
+
 .midTop{
     width: 28em;
     height: 0.5em;
@@ -250,6 +252,8 @@ gb{
     height: 0.5em;
 
 }
+
+/*Parte inferior de la parte central*/
 
 .midInf{
     width: 28em;
@@ -318,30 +322,91 @@ gb{
     flex-direction: column;
 }
 
-.botTop{
-    height: 6em;
-    width: 7em;
+/*Boton de brillo y luces*/
 
-    background-color: aqua;
+.botTop{
+    width: 28em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.botTopRelleno{
+    width: 12em;
+    height: 4em;
+
+    background-color: red;
+}
+
+/*Boton de brillo*/
+
+.brillo{
+    width: 4em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloBrillo{
+    width: 1.5em;
+    height: 1.5em;
+
+    background-color: yellow;
+
+    border-radius: 100% 100% 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonBrillo{
+    width: 1em;
+    height: 1em;
+
+    background-color: black;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Luces de encendido*/
+
+.encendido{
+    width: 12em;
+    height: 4em;
+
+    background-color: red;
+}
+
+/*Cruceta y botones A y B*/
+
 .botMidTop{
-    height: 9em;
-    width: 7em;
+    width: 28em;
+    height: 8em;
 
     background-color: orange;
 }
 
 .botMidBot{
+    width: 28em;
     height: 8em;
-    width: 7em;
 
     background-color: khaki;
 }
 
 .botBot{
-    height: 5em;
-    width: 7em;
+    width: 28em;
+    height: 4em;
 
     background-color: hotpink;
+    
+    border-radius: 0% 0% 10% 10%;
 }

@@ -124,11 +124,13 @@ gb{
     height: 16em;
     width: 23.2em;
 
-    background-color: red;
+    background-color: gray;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 /*Pantalla*/
@@ -143,7 +145,9 @@ gb{
     height: 14em;
     width: 22em;
 
-    background-color: gray;
+    background-image: url(../img/prueba.png);
+
+    opacity: 0;
 }
 
 .marcoIntDer{

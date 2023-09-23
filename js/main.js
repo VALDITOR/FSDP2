@@ -1,6 +1,38 @@
 let pantalla = document.getElementById("screen");
 let verde = document.getElementById("verde");
+let cont = 0;
 
+// Funciones para cambiar de imagen
+
+document.addEventListener("click", (e)=>{
+    
+    if(e.target.id === 'right'){
+        cont++;
+    }
+});
+
+document.addEventListener("click", (e)=>{
+if(cont === 1){
+    pantalla.style.backgroundImage = "url('img/azul.jpg')";
+}
+});
+
+document.addEventListener("click", (e)=>{
+    if(cont === 2){
+        pantalla.style.backgroundImage = "url('img/morado.jpg')";
+    }
+    });
+    
+document.addEventListener("click", (e)=>{
+    if(cont === 3){
+         cont = 0;
+    }
+    });
+document.addEventListener("click", (e)=>{
+    if(cont === 0){
+        pantalla.style.backgroundImage = "url('img/verde.jpg')";
+    }
+    });
 
 // Función volver a la primera imagen
 

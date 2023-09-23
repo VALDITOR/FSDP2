@@ -2,6 +2,14 @@ let pantalla = document.getElementById("screen");
 let verde = document.getElementById("verde");
 
 
+// Función volver a la primera imagen
+
+document.addEventListener("click", (e)=>{
+    
+    if(e.target.id === 'reset'){
+        pantalla.style.backgroundImage = "url('img/verde.jpg')";
+    }
+});
 
 // Función apagar y encender pantalla
 
@@ -16,6 +24,8 @@ document.addEventListener("click", (e)=>{
         
     }
 });
+
+// Función apagar y encender luz lateral
 
 document.addEventListener("click", (e)=>{
     

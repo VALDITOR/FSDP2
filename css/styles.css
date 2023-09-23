@@ -359,7 +359,7 @@ gb{
     width: 1.5em;
     height: 1.5em;
 
-    background-color: yellow;
+    background-color: darkred;
 
     border-radius: 100% 100% 100% 100%;
 
@@ -372,7 +372,7 @@ gb{
     width: 1em;
     height: 1em;
 
-    background-color: black;
+    background-color: gray;
 
     border-radius: 100% 100% 100% 100%;
 }
@@ -384,6 +384,25 @@ gb{
     height: 4em;
 
     background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.luzUno{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
+}
+
+.luzDos{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
 }
 
 /*Cruceta y botones A y B*/
@@ -392,8 +411,194 @@ gb{
     width: 28em;
     height: 8em;
 
-    background-color: orange;
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+/*Cruceta*/
+
+.contenedorCruceta{
+    width: 10em;
+    height: 7.5em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloCruceta{
+    width: 7.3em;
+    height: 7.3em;
+
+    background-color: darkred;
+
+    border-radius: 100% 100% 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cruceta{
+    width: 5em;
+    height: 5em;
+
+    background-color: yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.crucetaFilaUno{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaUno{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+.crucetaDos{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaTres{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+.crucetaFilaDos{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaCuatro{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaCinco{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaSeis{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaFilaTres{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaSiete{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+.crucetaOcho{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaNueve{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+/*Botones A y B*/
+.contenedorBotones{
+    width: 10em;
+    height: 7.5em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloBotones{
+    width: 9em;
+    height: 4em;
+
+    background-color: darkred;
+
+    border-radius: 25% 25% 25% 25%;
+
+    transform: rotate(160deg);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.alinearLetra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0.75em;
+}
+
+.boton{
+    width: 2.5em;
+    height: 2.5em;
+
+    background-color: gray;
+
+    border-radius: 100% 100% 100% 100%;
+
+    transform: rotate(197deg);
+}
+
+/*Altavoces*/
 
 .botMidBot{
     width: 28em;
@@ -401,6 +606,8 @@ gb{
 
     background-color: khaki;
 }
+
+/*Botones de Select y Start*/
 
 .botBot{
     width: 28em;

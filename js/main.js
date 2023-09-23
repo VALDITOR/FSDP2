@@ -2,7 +2,7 @@ let pantalla = document.getElementById("screen");
 let verde = document.getElementById("verde");
 let cont = 0;
 
-// Funciones para cambiar de imagen
+// Funciones para cambiar de imagen hacia delante
 
 document.addEventListener("click", (e)=>{
     
@@ -34,12 +34,46 @@ document.addEventListener("click", (e)=>{
     }
     });
 
+    // Funciones para cambiar de imagen hacia atras
+
+document.addEventListener("click", (e)=>{
+    
+    if(e.target.id === 'left'){
+        cont--;
+    }
+});
+
+document.addEventListener("click", (e)=>{
+if(cont === -1){
+    pantalla.style.backgroundImage = "url('img/azul.jpg')";
+}
+});
+
+document.addEventListener("click", (e)=>{
+    if(cont === -2){
+        pantalla.style.backgroundImage = "url('img/morado.jpg')";
+    }
+    });
+    
+document.addEventListener("click", (e)=>{
+    if(cont === -3){
+         cont = 0;
+    }
+    });
+
+    document.addEventListener("click", (e)=>{
+        if(cont === 0){
+            pantalla.style.backgroundImage = "url('img/verde.jpg')";
+        }
+        });
+
 // Función volver a la primera imagen
 
 document.addEventListener("click", (e)=>{
     
     if(e.target.id === 'reset'){
         pantalla.style.backgroundImage = "url('img/verde.jpg')";
+        cont = 0;
     }
 });
 

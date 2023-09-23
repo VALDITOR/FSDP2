@@ -602,18 +602,108 @@ gb{
 
 .botMidBot{
     width: 28em;
-    height: 8em;
+    height: 7em;
 
-    background-color: khaki;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.altavoz{
+    width: 7em;
+    height: 7em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.altavozFila{
+    width: 7em;
+    height: 2em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.altavozBola{
+    width: 0.5em;
+    height: 0.5em;
+
+    background-color: black;
+
+    border-radius: 100% 100% 100% 100%;
 }
 
 /*Botones de Select y Start*/
 
 .botBot{
     width: 28em;
-    height: 4em;
+    height: 5em;
 
-    background-color: hotpink;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     border-radius: 0% 0% 10% 10%;
+}
+
+.botonesSS{
+    width: 4em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: darkred;
+    
+}
+
+.circuloInf{
+    width: 1.5em;
+    height: 1.5em;
+
+    background-color: darkred;
+
+    border-radius: 100% 100% 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonInf{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+
+.start{
+    width: 4em;
+    height: 4em;
+
+    background-color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

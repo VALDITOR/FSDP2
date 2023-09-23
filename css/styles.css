@@ -1,0 +1,709 @@
+body{
+    background-color: blue;
+    background: linear-gradient(white);
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Contenedor principal*/
+
+gb{
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Pantalla y marco de la consola*/
+
+.top{
+    height: 22em;
+    width: 28em;
+
+    background-color: red;
+
+    border-radius: 5% 5% 5% 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Marco superior y bolas de la parte superior*/
+
+.marcoTop{
+    height: 2.7em;
+    width: 27.5em;
+
+    background-color: red;
+
+    border-radius: 30% 30% 0% 0%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bolaTopIzq{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+.bolaTopCentro{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+.bolaTopDer{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Pantalla, marcos interior y exterior*/
+
+.marcoMid{
+    height: 17em;
+    width: 28em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcoExtIzq{
+    height: 17em;
+    width: 2.5em;
+
+    background-color: red;
+}
+
+.marcoPan{
+    height: 17em;
+    width: 24em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Marco interno*/
+.marcoTopInt{
+    height: 1.5em;
+    width: 23.2em;
+
+    background-color: black;
+}
+
+.marcoCentro{
+    height: 16em;
+    width: 23.2em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Pantalla*/
+.marcoIntIzq{
+    height: 14em;
+    width: 1.5em;
+
+    background-color: black;
+}
+
+.pantalla{
+    height: 14em;
+    width: 22em;
+
+    background-color: gray;
+}
+
+.marcoIntDer{
+    height: 14em;
+    width: 1.5em;
+
+    background-color: black;
+}
+
+/*Fin Pantalla*/
+.marcoBotInt{
+    height: 2.5em;
+    width: 23.2em;
+
+    background-color: black;
+
+    color: white;
+    text-align: center;
+}
+
+/*Marco externo derecho*/
+.marcoExtDer{
+    height: 17em;
+    width:  2.5em;
+
+    background-color: red;
+}
+
+
+
+/*Marco superior y bolas de la parte superior*/
+
+.marcoBot{
+    height: 2.7em;
+    width: 28em;
+
+    background-color: red;
+
+    border-radius: 0% 0% 30% 30%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bolaBotIzq{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+.bolaBotDer{
+    height: 1em;
+    width: 1em;
+
+    background-color: white;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Parte plegable de la consola*/
+
+/*Bisagras*/
+
+.midTop{
+    width: 28em;
+    height: 0.5em;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unoTop{
+    width: 3em;
+    height: 0.5em;
+
+}
+
+.dosTop{
+    width: 15em;
+    height: 0.5em;
+
+    background-color: red;
+}
+
+.tresTop{
+    width: 11em;
+    height: 0.5em;
+
+}
+
+.cuatroTop{
+    width: 3em;
+    height: 0.5em;
+
+    background-color: red;
+}
+
+.cincoTop{
+    width: 3em;
+    height: 0.5em;
+
+}
+
+/*Parte inferior de la parte central*/
+
+.midInf{
+    width: 28em;
+    height: 3em;
+
+
+    border-radius: 10% 10% 0% 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno{
+    width: 3em;
+    height: 3em;
+
+    background-color: red;
+
+    border-radius: 10% 5% 0% 0%;
+}
+
+.dos{
+    width: 15em;
+    height: 3em;
+
+    background-color: red;
+}
+
+.tres{
+    width: 11em;
+    height: 3em;
+
+    background-color: red;
+}
+
+.cuatro{
+    width: 3em;
+    height: 3em;
+
+    background-color: red;
+}
+
+.cinco{
+    width: 3em;
+    height: 3em;
+
+    background-color: red;
+
+    border-radius: 5% 10% 0% 0%;
+}
+
+/*Parte inferior y botones de la consola*/
+
+.bot{
+    width: 28em;
+    height: 22.5em;
+
+    background-color: green;
+
+    border-radius: 0% 0% 10% 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Boton de brillo y luces*/
+
+.botTop{
+    width: 28em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botTopRelleno{
+    width: 12em;
+    height: 4em;
+
+    background-color: red;
+}
+
+/*Boton de brillo*/
+
+.brillo{
+    width: 4em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloBrillo{
+    width: 1.5em;
+    height: 1.5em;
+
+    background-color: darkred;
+
+    border-radius: 100% 100% 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonBrillo{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Luces de encendido*/
+
+.encendido{
+    width: 12em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.luzUno{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
+}
+
+.luzDos{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
+}
+
+/*Cruceta y botones A y B*/
+
+.botMidTop{
+    width: 28em;
+    height: 8em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Cruceta*/
+
+.contenedorCruceta{
+    width: 10em;
+    height: 7.5em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloCruceta{
+    width: 7.3em;
+    height: 7.3em;
+
+    background-color: darkred;
+
+    border-radius: 100% 100% 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cruceta{
+    width: 5em;
+    height: 5em;
+
+    background-color: yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.crucetaFilaUno{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaUno{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+.crucetaDos{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaTres{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+.crucetaFilaDos{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaCuatro{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaCinco{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaSeis{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaFilaTres{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaSiete{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+.crucetaOcho{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: gray;
+}
+
+.crucetaNueve{
+    width: 5em;
+    height: 1.67em;
+
+    background-color: darkred;
+}
+
+/*Botones A y B*/
+.contenedorBotones{
+    width: 10em;
+    height: 7.5em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloBotones{
+    width: 9em;
+    height: 4em;
+
+    background-color: darkred;
+
+    border-radius: 25% 25% 25% 25%;
+
+    transform: rotate(160deg);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.alinearLetra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0.75em;
+}
+
+.boton{
+    width: 2.5em;
+    height: 2.5em;
+
+    background-color: gray;
+
+    border-radius: 100% 100% 100% 100%;
+
+    transform: rotate(197deg);
+}
+
+/*Altavoces*/
+
+.botMidBot{
+    width: 28em;
+    height: 7em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.altavoz{
+    width: 7em;
+    height: 7em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.altavozFila{
+    width: 7em;
+    height: 2em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.altavozBola{
+    width: 0.5em;
+    height: 0.5em;
+
+    background-color: black;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+/*Botones de Select y Start*/
+
+.botBot{
+    width: 28em;
+    height: 5em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 0% 0% 10% 10%;
+}
+
+.botonesSS{
+    width: 4em;
+    height: 4em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: darkred;
+    
+}
+
+.circuloInf{
+    width: 1.5em;
+    height: 1.5em;
+
+    background-color: darkred;
+
+    border-radius: 100% 100% 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonInf{
+    width: 1em;
+    height: 1em;
+
+    background-color: gray;
+
+    border-radius: 100% 100% 100% 100%;
+}
+
+
+.start{
+    width: 4em;
+    height: 4em;
+
+    background-color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

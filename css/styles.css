@@ -36,6 +36,7 @@ gb{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 /*Marco superior y bolas de la parte superior*/
@@ -60,6 +61,8 @@ gb{
     background-color: white;
 
     border-radius: 100% 100% 100% 100%;
+
+    border: 0.1em solid black;
 }
 
 .bolaTopCentro{
@@ -69,6 +72,8 @@ gb{
     background-color: white;
 
     border-radius: 100% 100% 100% 100%;
+    
+    border: 0.1em solid black;
 }
 
 .bolaTopDer{
@@ -78,6 +83,8 @@ gb{
     background-color: white;
 
     border-radius: 100% 100% 100% 100%;
+
+    border: 0.1em solid black;
 }
 
 /*Pantalla, marcos interior y exterior*/
@@ -110,6 +117,8 @@ gb{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    
 }
 
 /*Marco interno*/
@@ -186,7 +195,7 @@ gb{
 
     background-color: red;
 
-    border-radius: 0% 0% 30% 30%;
+    border-radius: 0% 0% 50% 50%;
 
     display: flex;
     justify-content: space-between;
@@ -200,6 +209,10 @@ gb{
     background-color: white;
 
     border-radius: 100% 100% 100% 100%;
+
+    border: 0.1em solid black;
+
+    margin-left: 0.5em;
 }
 
 .bolaBotDer{
@@ -209,6 +222,10 @@ gb{
     background-color: white;
 
     border-radius: 100% 100% 100% 100%;
+
+    border: 0.1em solid black;
+
+    margin-right: 0.5em;
 }
 
 /*Parte plegable de la consola*/
@@ -236,6 +253,10 @@ gb{
     height: 0.5em;
 
     background-color: red;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .tresTop{
@@ -249,6 +270,10 @@ gb{
     height: 0.5em;
 
     background-color: red;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .cincoTop{
@@ -278,6 +303,10 @@ gb{
     background-color: red;
 
     border-radius: 10% 5% 0% 0%;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .dos{
@@ -285,6 +314,9 @@ gb{
     height: 3em;
 
     background-color: red;
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .tres{
@@ -292,6 +324,10 @@ gb{
     height: 3em;
 
     background-color: red;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .cuatro{
@@ -299,6 +335,10 @@ gb{
     height: 3em;
 
     background-color: red;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .cinco{
@@ -308,6 +348,10 @@ gb{
     background-color: red;
 
     border-radius: 5% 10% 0% 0%;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 /*Parte inferior y botones de la consola*/
@@ -324,6 +368,7 @@ gb{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 /*Boton de brillo y luces*/
@@ -337,6 +382,8 @@ gb{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-top: 0.6em solid black;
 }
 
 .botTopRelleno{
@@ -370,6 +417,8 @@ gb{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border: 0.1em solid black;
 }
 
 .botonBrillo{
@@ -379,6 +428,8 @@ gb{
     background-color: gray;
 
     border-radius: 100% 100% 100% 100%;
+
+    border: 0.1em solid black;
 }
 
 /*Luces de encendido*/
@@ -400,6 +451,8 @@ gb{
     height: 1em;
 
     background-color: gray;
+
+    border: 0.1em solid black;
 }
 
 .luzDos{
@@ -407,13 +460,15 @@ gb{
     height: 1em;
 
     background-color: gray;
+
+    border: 0.1em solid black;
 }
 
 /*Cruceta y botones A y B*/
 
 .botMidTop{
     width: 28em;
-    height: 7em;
+    height: 7.5em;
 
     background-color: red;
 
@@ -436,8 +491,8 @@ gb{
 }
 
 .circuloCruceta{
-    width: 7.3em;
-    height: 7.3em;
+    width: 7.1em;
+    height: 7.1em;
 
     background-color: darkred;
 
@@ -446,6 +501,8 @@ gb{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border: 0.1em solid black;
 }
 
 .cruceta{
@@ -483,6 +540,8 @@ gb{
     height: 1.67em;
 
     background-color: gray;
+
+    border: 0.1em solid black;
 }
 
 .crucetaTres{
@@ -508,6 +567,9 @@ gb{
     height: 1.67em;
 
     background-color: gray;
+
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
 }
 
 .crucetaCinco{
@@ -522,6 +584,9 @@ gb{
     height: 1.67em;
 
     background-color: gray;
+
+    border-top: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 
 .crucetaFilaTres{
@@ -540,6 +605,8 @@ gb{
     height: 1.67em;
 
     background-color: darkred;
+
+    border-top: 0.1em solid black;
 }
 
 .crucetaOcho{
@@ -547,6 +614,10 @@ gb{
     height: 1.67em;
 
     background-color: gray;
+
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
+    border-bottom: 0.1em solid black;
 }
 
 .crucetaNueve{
@@ -554,6 +625,8 @@ gb{
     height: 1.67em;
 
     background-color: darkred;
+
+    border-top: 0.1em solid black;
 }
 
 /*Botones A y B*/
@@ -581,6 +654,8 @@ gb{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    border: 0.1em solid black;
 }
 
 .alinearLetra{
@@ -600,6 +675,8 @@ gb{
     border-radius: 100% 100% 100% 100%;
 
     transform: rotate(197deg);
+
+    border: 0.1em solid black;
 }
 
 /*Altavoces*/
@@ -688,6 +765,8 @@ gb{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border: 0.1em solid black;
 }
 
 .botonInf{
@@ -697,17 +776,6 @@ gb{
     background-color: gray;
 
     border-radius: 100% 100% 100% 100%;
-}
 
-
-.start{
-    width: 4em;
-    height: 4em;
-
-    background-color: green;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border: 0.1em solid black;
 }

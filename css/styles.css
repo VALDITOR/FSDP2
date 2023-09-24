@@ -25,7 +25,7 @@ gb{
 /*Pantalla y marco de la consola*/
 
 .top{
-    height: 22em;
+    height: 21em;
     width: 28em;
 
     background-color: red;
@@ -314,7 +314,7 @@ gb{
 
 .bot{
     width: 28em;
-    height: 22.5em;
+    height: 20em;
 
     background-color: green;
 
@@ -330,7 +330,7 @@ gb{
 
 .botTop{
     width: 28em;
-    height: 4em;
+    height: 3em;
 
     background-color: red;
 
@@ -413,7 +413,7 @@ gb{
 
 .botMidTop{
     width: 28em;
-    height: 8em;
+    height: 7em;
 
     background-color: red;
 
@@ -606,7 +606,7 @@ gb{
 
 .botMidBot{
     width: 28em;
-    height: 7em;
+    height: 6em;
 
     background-color: red;
 
@@ -651,7 +651,7 @@ gb{
 
 .botBot{
     width: 28em;
-    height: 5em;
+    height: 4em;
 
     background-color: red;
 

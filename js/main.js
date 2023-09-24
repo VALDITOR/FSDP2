@@ -13,13 +13,13 @@ document.addEventListener("click", (e)=>{
 
 document.addEventListener("click", (e)=>{
 if(cont === 1){
-    pantalla.style.backgroundImage = "url('img/azul.jpg')";
+    pantalla.style.backgroundImage = "url('img/pkm.png')";
 }
 });
 
 document.addEventListener("click", (e)=>{
     if(cont === 2){
-        pantalla.style.backgroundImage = "url('img/morado.jpg')";
+        pantalla.style.backgroundImage = "url('img/ctv.png')";
     }
     });
     
@@ -30,7 +30,7 @@ document.addEventListener("click", (e)=>{
     });
 document.addEventListener("click", (e)=>{
     if(cont === 0){
-        pantalla.style.backgroundImage = "url('img/verde.jpg')";
+        pantalla.style.backgroundImage = "url('img/gba.png')";
     }
     });
 
@@ -45,13 +45,13 @@ document.addEventListener("click", (e)=>{
 
 document.addEventListener("click", (e)=>{
 if(cont === -1){
-    pantalla.style.backgroundImage = "url('img/azul.jpg')";
+    pantalla.style.backgroundImage = "url('img/pkm.png')";
 }
 });
 
 document.addEventListener("click", (e)=>{
     if(cont === -2){
-        pantalla.style.backgroundImage = "url('img/morado.jpg')";
+        pantalla.style.backgroundImage = "url('img/ctv.png')";
     }
     });
     
@@ -63,7 +63,7 @@ document.addEventListener("click", (e)=>{
 
     document.addEventListener("click", (e)=>{
         if(cont === 0){
-            pantalla.style.backgroundImage = "url('img/verde.jpg')";
+            pantalla.style.backgroundImage = "url('img/gba.png')";
         }
         });
 
@@ -72,7 +72,7 @@ document.addEventListener("click", (e)=>{
 document.addEventListener("click", (e)=>{
     
     if(e.target.id === 'reset'){
-        pantalla.style.backgroundImage = "url('img/verde.jpg')";
+        pantalla.style.backgroundImage = "url('img/gba.png')";
         cont = 0;
     }
 });

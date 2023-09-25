@@ -48,13 +48,13 @@ document.addEventListener("click", (e)=>{
 
 document.addEventListener("click", (e)=>{
 if(cont === -1){
-    pantalla.style.backgroundImage = "url('img/pkm.png')";
+    pantalla.style.backgroundImage = "url('img/choice.png')";
 }
 });
 
 document.addEventListener("click", (e)=>{
     if(cont === -2){
-        pantalla.style.backgroundImage = "url('img/choice.png')";
+        pantalla.style.backgroundImage = "url('img/pkm.png')";
     }
     });
     

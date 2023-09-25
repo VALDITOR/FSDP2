@@ -1,5 +1,8 @@
 let pantalla = document.getElementById("screen");
 let verde = document.getElementById("verde");
+let audio = document.getElementById("audio");
+let play = document.getElementById("empezarMusica");
+let pause = document.getElementById("pararMusica");
 let cont = 0;
 
 // Funciones para cambiar de imagen hacia delante
@@ -19,7 +22,7 @@ if(cont === 1){
 
 document.addEventListener("click", (e)=>{
     if(cont === 2){
-        pantalla.style.backgroundImage = "url('img/ctv.png')";
+        pantalla.style.backgroundImage = "url('img/choice.png')";
     }
     });
     
@@ -51,7 +54,7 @@ if(cont === -1){
 
 document.addEventListener("click", (e)=>{
     if(cont === -2){
-        pantalla.style.backgroundImage = "url('img/ctv.png')";
+        pantalla.style.backgroundImage = "url('img/choice.png')";
     }
     });
     
@@ -103,4 +106,14 @@ document.addEventListener("click", (e)=>{
             return verde.style.backgroundColor = "green";
         
     }
+});
+
+
+
+play.addEventListener("click", function() {
+  audio.play();
+});
+
+pause.addEventListener("click", function() {
+  audio.pause();
 });

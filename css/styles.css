@@ -1,5 +1,6 @@
 body{
-    background-color: blue;
+    background-image: url(../img/wpred.png);
+    /* background-color: blue; */
     background: linear-gradient(white);
 
     height: 100vh;
@@ -13,6 +14,10 @@ body{
 
     margin: 0px;
     padding: 0px;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 /*Contenedor principal*/
@@ -31,6 +36,8 @@ gb{
     background-color: red;
 
     border-radius: 5% 5% 5% 5%;
+
+    filter: drop-shadow( 50px 0px 20px black);
 
     display: flex;
     justify-content: center;
@@ -241,9 +248,12 @@ gb{
     height: 0.5em;
 
 
+    filter: drop-shadow( 50px 0px 20px black);
+
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .unoTop{
@@ -294,6 +304,8 @@ gb{
 
 
     border-radius: 10% 10% 0% 0%;
+
+    filter: drop-shadow( 50px 0px 20px black);
 
     display: flex;
     justify-content: center;
@@ -368,6 +380,8 @@ gb{
 
     border-radius: 0% 0% 10% 10%;
 
+    filter: drop-shadow( 50px 0px 20px black);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,6 +396,7 @@ gb{
     height: 3em;
 
     background-color: red;
+    
 
     display: flex;
     justify-content: center;
@@ -546,6 +561,7 @@ gb{
     background-color: gray;
 
     border: 0.1em solid black;
+
 }
 
 .crucetaTres{
@@ -574,6 +590,8 @@ gb{
 
     border-top: 0.1em solid black;
     border-left: 0.1em solid black;
+
+    cursor: pointer;
 }
 
 .crucetaCinco{
@@ -591,6 +609,8 @@ gb{
 
     border-top: 0.1em solid black;
     border-right: 0.1em solid black;
+
+    cursor: pointer;
 }
 
 .crucetaFilaTres{
@@ -681,6 +701,8 @@ gb{
     transform: rotate(197deg);
 
     border: 0.1em solid black;
+
+    cursor: pointer;
 }
 
 /*Altavoces*/
@@ -782,4 +804,30 @@ gb{
     border-radius: 100% 100% 100% 100%;
 
     border: 0.1em solid black;
+
+    cursor: pointer;
+}
+
+.crucetaCuatro:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 1em gray;
+}
+
+.crucetaSeis:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 1em gray;
+}
+
+.boton:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 1em gray;
+
+    transform: rotate(200deg);
+}
+
+.circuloInf:active {
+    transform: scale(0.9);
+    box-shadow: 0em 0em 1.5em gray;
+
+    transform: rotate(200deg);
 }

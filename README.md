@@ -19,6 +19,11 @@
     
     ![cambiarimg](https://github.com/VALDITOR/FSDP2/assets/139993876/1e5f4b7a-a979-45cd-83bf-e814751fd1dd)
 
+### Controles de la música:
+  - Usa los botones A y B para controlar la música pulsa el botón "B" empezaras a reproducirla y el para detenerla pulsa el botón "A".
+    
+![musica](https://github.com/VALDITOR/FSDP2/assets/139993876/a4000722-5a52-46fb-b247-a79094cbfc00)
+
 ### Volver a la imagen inicial:
   -Para volver a la imagen inicial sin tener que pasar por la demas pulsa el boton SELECT en la parte inferior izquierda.
   
@@ -35,6 +40,5 @@
 
 
 ### Mejoras
-- Añadir la banda sonora del videojuego al estar sobre su imagen.
 - Mejorar el carrusel de imagenes para arreglar el bug de que a veces se salte una imagen.
 - Añadir funcionalidades extra en los demas botones.
